@@ -1,0 +1,55 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hide Shipping Methods for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-12 18:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: wc-hide-shipping-methods"
+
+#: hide-shipping-free-shipping.php:48
+msgid "Free Shipping: "
+msgstr ""
+
+#. Name of the plugin
+msgid "Hide Shipping Methods for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Hides other shipping methods when \"Free shipping\" is available."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/rynald0s/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wc-hide-shipping-methods/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Rynaldo Stoltz"
+msgstr ""
+
+#: hide-shipping-free-shipping.php:42
+msgid "Shipping Method Visibility"
+msgstr ""
+
+#: hide-shipping-free-shipping.php:55
+msgid ""
+"Show \"Free Shipping\" and \"Local Pickup\" only (if available). Hide all "
+"the other methods."
+msgstr ""
+
+#: hide-shipping-free-shipping.php:54
+msgid "Show \"Free Shipping\" only. Hide all the other methods"
+msgstr ""

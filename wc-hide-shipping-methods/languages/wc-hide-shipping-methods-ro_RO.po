@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Wc Hide Shipping Methods\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-12T18:13:32+00:00\n"
+"PO-Revision-Date: 2024-08-12 18:13:31+0000\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: Translation Generator: gpt-4o\n"
+
+#: hide-shipping-free-shipping.php:48
+#, fuzzy
+msgid "Free Shipping: "
+msgstr "Transport Gratuit: "
+
+#. Name of the plugin
+msgid "Hide Shipping Methods for WooCommerce"
+msgstr "Ascunde metodele de expediere pentru WooCommerce"
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/wc-hide-shipping-methods/"
+msgstr "https://wordpress.org/plugins/wc-hide-shipping-methods/"
+
+#: hide-shipping-free-shipping.php:42
+msgid "Shipping Method Visibility"
+msgstr "Vizibilitatea metodei de expediere"
+
+#: hide-shipping-free-shipping.php:55
+#: hide-shipping-free-shipping.php:54
+msgid "Show \"Free Shipping\" only. Hide all the other methods"
+msgstr "Afișează „Livrare Gratuită” numai. Ascunde toate celelalte metode"
