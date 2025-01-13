@@ -3,10 +3,10 @@
 Contributors: rynald0s, riaanknoetze
 Tags: woocommerce free shipping, hide shipping methods, hide shipping rates, force free shipping, hide other shipping methods
 Requires at least: 6.5.0
-Tested up to: 6.5
-Stable tag: 1.8.1
+Tested up to: 6.7.1
+Stable tag: 1.8.2
 WC requires at least: 3.9.4
-WC tested up to: 8.1
+WC tested up to: 9.5.2
 License: GPLv3 or later License
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -48,6 +48,10 @@ A: You can submit issues or feature requests on the [Public GitHub Repository](h
 2. Checkout showing only "Free Shipping".
 
 == Changelog ==
+
+= 1.8.2 =
+* Tested for WordPress 6.7.1
+* Tested for WooCommerce 9.5.2
 
 = 1.8.1 =
 * Updated banner and screenshots.

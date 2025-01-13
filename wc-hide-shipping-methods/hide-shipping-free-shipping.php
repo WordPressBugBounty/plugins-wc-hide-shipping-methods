@@ -2,17 +2,17 @@
 /**
  * Plugin Name: WC Hide Shipping Methods
  * Plugin URI: https://wordpress.org/plugins/wc-hide-shipping-methods/
- * Documentation URI: https://woocommerce.com/document/hide-shipping-methods/
+ * Documentation URI: https://wccare.co/
  * Description: Hides other shipping methods when "Free shipping" is available.
  * Author: Rynaldo Stoltz
- * Author URI: https://profiles.wordpress.org/rynald0s/
- * Version: 1.8
+ * Author URI: https://wccare.co/
+ * Version: 1.8.2
  * Text Domain: wc-hide-shipping-methods
  * Domain Path: /languages
  * License: GPLv3 or later License
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * WC requires at least: 3.9.4
- * WC tested up to: 7.8.1
+ * WC tested up to: 9.5.2
  * Requires at least: 6.5
  * Requires PHP: 7.4
  *
