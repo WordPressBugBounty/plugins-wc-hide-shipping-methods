@@ -4,7 +4,7 @@ Contributors: rynald0s, riaanknoetze
 Tags: woocommerce free shipping, hide shipping methods, hide shipping rates, force free shipping, hide other shipping methods
 Requires at least: 6.5.0
 Tested up to: 6.7.1
-Stable tag: 1.8.2
+Stable tag: 1.8.3
 WC requires at least: 3.9.4
 WC tested up to: 9.5.2
 License: GPLv3 or later License
@@ -48,6 +48,9 @@ A: You can submit issues or feature requests on the [Public GitHub Repository](h
 2. Checkout showing only "Free Shipping".
 
 == Changelog ==
+
+= 1.8.3 =
+* Fix: Updated method_id check to account for WooCommerce's change from local_pickup to pickup_location, while maintaining backward compatibility with previous WooCommerce versions.
 
 = 1.8.2 =
 * Tested for WordPress 6.7.1
