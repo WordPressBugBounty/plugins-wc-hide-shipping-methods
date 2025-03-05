@@ -4,13 +4,13 @@ Contributors: rynald0s, riaanknoetze
 Tags: woocommerce free shipping, hide shipping methods, hide shipping rates, force free shipping, hide other shipping methods
 Requires at least: 6.5.0
 Tested up to: 6.7.1
-Stable tag: 1.8.3
+Stable tag: 1.8.4
 WC requires at least: 3.9.4
-WC tested up to: 9.5.2
+WC tested up to: 9.7.1
 License: GPLv3 or later License
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin hides all other shipping methods when "Free Shipping" is available, but you can keep "Local Pickup" alongside it.
+This plugin automatically hides all other shipping methods when "Free Shipping" is available, while allowing you to retain "Local Pickup" and any additional shipping methods you select from your shipping zones.
 
 
 == Description ==
@@ -18,11 +18,18 @@ This plugin hides all other shipping methods when "Free Shipping" is available, 
 WC Hide Shipping Methods is a simple and effective plugin that hides all other shipping methods when "Free Shipping" is available during the checkout process. Additionally, it provides an option to keep "Local Pickup" available alongside "Free Shipping" if desired.
 
 Key features:
-- Automatically hides all other shipping methods when "Free Shipping" is available.
-- Option to keep "Local Pickup" available with "Free Shipping".
-- Easy integration with WooCommerce settings.
-- Compatible with WooCommerce shipping zones.
-- Compatible with both classic and modern block-based checkout methods (i.e. Gutenberg & WooCommerce blocks).
+- Automatic Shipping Method Hiding: Hides all other shipping options when “Free Shipping” is available for a cleaner checkout experience.
+- Local Pickup Option: Choose to keep “Local Pickup” available alongside “Free Shipping.”
+- Additional Shipping Methods: Administrators can select extra shipping methods (pulled from available WooCommerce shipping zones) to display in addition to the default options.
+- Seamless WooCommerce Integration: Easily managed through WooCommerce settings.
+- Shipping Zone Compatibility: Dynamically pulls shipping methods from your WooCommerce shipping zones.
+- Block & Classic Compatibility: Fully supports both the modern block-based checkout (Gutenberg & WooCommerce blocks) and the classic WooCommerce checkout.
+
+Support & Other Plugins:
+For support with WC Hide Shipping Methods, please visit our support page at [OrcaWP](https://orcawp.com). We also invite you to explore our other WooCommerce plugins:
+
+[Advanced Per Product Shipping for WooCommerce](https://orcawp.com/product/advanced-per-product-shipping-for-woocommerce/): Add shipping fees for individual products or categories, with zone-specific restrictions.
+[Shipping Importer and Exporter for WooCommerce](https://orcawp.com/product/shipping-importer-and-exporter-for-woocommerce/): Easily manage your shipping zones, methods, locations, rates, and settings with a simple export/import process.
 
 == Installation ==
 
@@ -32,6 +39,7 @@ Key features:
 4. Select your preferred option:
    - Show "Free Shipping" only.
    - Show "Free Shipping" and "Local Pickup" only.
+   - Select any additional shipping methods you would like to show alongside that.
 5. Save changes and enjoy the optimized checkout experience!
 
 == Frequently Asked Questions ==
@@ -39,8 +47,11 @@ Key features:
 = Q: Is this plugin compatible with WooCommerce shipping zones? =
 A: Yes, the plugin is fully compatible with WooCommerce's shipping zones feature.
 
+= Q: Is this plugin compatible with the new Local Pickup (Blocks edition)? =
+A: Yes, the plugin is fully compatible with WooCommerce's new Local Pickup (Blocks edition).
+
 = Q: Where can I go if I find an issue or want to recommend a feature? =
-A: You can submit issues or feature requests on the [Public GitHub Repository](https://github.com/riaanknoetze/wc-hide-shipping-methods-free/issues).
+A: You can submit issues or feature requests on the [Orca WP Plugins](https://orcawp.com).
 
 == Screenshots ==
 
@@ -48,6 +59,11 @@ A: You can submit issues or feature requests on the [Public GitHub Repository](h
 2. Checkout showing only "Free Shipping".
 
 == Changelog ==
+
+= 1.8.4 =
+* WooCommerce Compatibility: Now tested up to WooCommerce 9.7.1.
+* Additional Shipping Methods: Added a new multiselect setting that lets admins choose extra shipping methods (pulled dynamically from shipping zones) to display alongside “Free Shipping” and “Local Pickup.”
+* Filter Priority Change: Increased the priority of shipping method filters from 10 to 99 to ensure compatibility with other plugins.
 
 = 1.8.3 =
 * Fix: Updated method_id check to account for WooCommerce's change from local_pickup to pickup_location, while maintaining backward compatibility with previous WooCommerce versions.
