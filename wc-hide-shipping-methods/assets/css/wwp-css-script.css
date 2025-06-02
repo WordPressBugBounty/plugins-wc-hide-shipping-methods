@@ -1,0 +1,8 @@
+#wholesale_tire_price tbody tr.active td {
+	color: black;
+	background-color: #cc7cf5;
+}
+
+input#wwp_wholesaler_copy_billing_address {
+	margin: 5px ! important;
+}

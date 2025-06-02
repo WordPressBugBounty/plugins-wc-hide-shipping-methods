@@ -1,0 +1,13 @@
+
+/* Add (Pro) label to specific menu items */
+ul.wp-submenu a[href*="wwp_wholesale_reports"]::after,
+ul.wp-submenu a[href*="wwp-bulk-wholesale-pricing"]::after,
+ul.wp-submenu a[href*="wwp-import-url-feature"]::after,
+ul.wp-submenu a[href*="wwp-export-url-feature"]::after{
+	content: "(Pro)";
+	display: inline-block;
+	position: relative;
+	color: #D63638; 
+	font-weight: bold;
+	margin-left: 5px;
+} 
