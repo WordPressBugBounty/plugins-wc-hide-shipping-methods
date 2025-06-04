@@ -19,6 +19,19 @@ if (!class_exists('WWP_Wholesale_User_Roles')) {
 			add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts_user_roles' ) );
 			add_filter( 'wp_update_term_data', array( $this, 'wp_update_term_data_wholesale_user_roles' ), 99, 3);
 			add_filter( 'bulk_actions-edit-wholesale_user_roles', array( $this, 'wwp_remove_bulk_actions' ), 99 );
+			add_action( 'admin_menu', array( $this, 'register_menu_for_user_roles' ) );
+		}
+
+		public function register_menu_for_user_roles() {
+			add_filter( 'parent_file', array( $this, 'wwp_menu_highlight_wholesale_user_roles' ), 10 );
+		}
+
+		public function wwp_menu_highlight_wholesale_user_roles( $parent_file ) {
+			global $current_screen;
+			if ( 'wholesale_user_roles' == $current_screen->taxonomy ) {
+				$parent_file = 'wwp_wholesale';
+			}
+			return $parent_file;
 		}
 
 		public function wwp_remove_bulk_actions( $actions ) {

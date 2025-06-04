@@ -1,25 +1,24 @@
-﻿=== B2B Wholesale Plugin for eCommerce | WooCommerce Wholesale ===
+﻿=== B2B Wholesale Plugin for eCommerce | The #1 B2B eCommerce Plugin for WooCommerce to Streamline Wholesale Product Selling, Pricing, and Wholesale User Roles. Build Your Online Wholesale Store Today! ===
 Contributors: wpexpertsio
 Tags: woocommerce wholesale, wholesale plugin, B2B, wholesale pricing, woocommerce wholesale pricing
 Requires at least: 5.6
 Tested up to: 6.8
-Stable tag: 2.0
+Stable tag: 2.0.2
 Requires PHP: 7.4
 License: GPLv2
 License URI: GPLv2
 
-Wholesale for WooCommerce is a free WooCommerce B2B plugin that helps B2B eCommerce businesses streamline their wholesale operations.
+B2B Wholesale for WooCommerce is a free eCommerce B2B plugin that helps online B2B businesses streamline their wholesale operations.
 
 == Description ==
 
-**Wholesale for WooCommerce | The #1 B2B eCommerce Plugin for WooCommerce to Streamline Wholesale Products, Pricing, and Wholesale User Roles. Build Your Online Wholesale Store Today!**
-
 🔍 [Live Demo](https://wpedemo.com/wholesale-product-for-woocommerce/) | 📄 [Documentation](https://wpexperts.io/docs/wholesale-for-woocommerce/) |⭐ [Get Pro](https://wpexperts.io/products/wholesale-for-woocommerce/) |
 
-Wholesale for WooCommerce is an all-around WooCommerce plugin that allows you to display wholesale prices on your WooCommerce store products. Why should you develop a new website to sell your wholesale products when you can use Wholesale for WooCommerce to sell retail and wholesale products on the same website?
-You can sign up the customer via a wholesale registration form and then assign them a “Wholesaler” role—it is that simple.
-You can add wholesale pricing to your existing products and each variation of a variable product.
-What’s more exciting for your customers to see they have saved big on a discount? Display the amount they’re saving on your products and create a big-save buzz.
+Looking for the ultimate solution to manage wholesale pricing on your WooCommerce store? Our B2B wholesale plugin is a powerful all-in-one tool that lets you sell both retail and wholesale products from a single website—no need to build a separate B2B site! Use Wholesale for WooCommerce to efficiently onboard wholesale customers through a dedicated wholesale registration form and assign them a custom "Wholesaler" role with just a few clicks. Add wholesale pricing to simple and variable products, giving you complete control over pricing for each user role.
+
+Boost customer satisfaction by showing them the savings they’re getting. With B2B wholesale for WooCommerce, you can highlight the discount amount directly on your product pages and drive more conversions through visible value.
+
+**Looking for more? You can always upgrade to [Wholesale for WooCommerce Pro](https://wpexperts.io/products/wholesale-for-woocommerce/) and build a custom online B2B store to streamline your wholesale operations.** 
 
 ### How Does Wholesale for WooCommerce Work? 🎥
 If you want to know how this impressive WooCommerce practically works, follow the video tutorial below:
@@ -34,8 +33,10 @@ The REST API allows WooCommerce store owners to manage wholesale products and us
 **Tiered Pricing 💸**
 Through this impactful feature, small or large businesses can entice their customers with various wholesale prices. They can encourage customers to make purchases in bulk quantities, rewarding large orders and getting huge profits in return.
 
-**New User Registration Notification 📧**
-This WooCommerce wholesale plugin lets store owners send an email notification to users who have submitted their registration request. It also enables wholesale businesses to establish fruitful relationships with new customers through improved communication. 
+**Tier pricing is also available as a standalone extension [here](https://wpexperts.io/products/tiered-pricing-for-woocommerce/).**
+
+**Wholesale User Registration Notification 📧**
+This WooCommerce wholesale plugin lets store owners send an email notification to users who have submitted their registration request. It also enables wholesale businesses to establish fruitful relationships with new customers through improved communication.
 This feature helps businesses inform users about their registration request statuses on time. Potential wholesale customers can reap the benefits of personalized communication, and store admins can streamline their notification processes.
 
 **Compatibility With HPOS (High-Performance Order Storage) ⚡**
@@ -61,15 +62,14 @@ It helps dynamically pull shipping methods from your WooCommerce shipping zones.
 **Block & Classic Checkout Compatibility 🧱**
 This feature fully supports the modern block-based checkout and the classic WooCommerce checkout.
 
-**Wholesale for WooCommerce User Experience Features 🛍️**
-User-conducive and Appealing Interface 🎨
+### Wholesale for WooCommerce User Experience Features 🛍️
+**User-conducive and Appealing Interface 🎨**
 This B2B buyer plugin offers users an attractive, easy-to-use interface. They can easily find all the desired features in one place.
 
 **Mobile Optimization 📱**
 This B2B for WooCommerce plugin is compatible with mobile devices. Your WooCommerce store will function well on customers’ mobile devices and delight them with an optimized user experience.
 
-**Wholesale for WooCommerce Other Results-Driven Features 🔧**
-
+### Wholesale for WooCommerce Other Results-Driven Features 🔧
 * Add fixed tier pricing and percentage amount type.
 * Add wholesale prices to your products.
 * Wholesale prices are only visible to Wholesaler-role customers.
@@ -86,7 +86,7 @@ This B2B for WooCommerce plugin is compatible with mobile devices. Your WooComme
 * List, retrieve, create, update, delete, and batch update wholesale variation.
 * Retrieve and update a general discount.
 
-**Importance of Wholesale for WooCommerce for E-Commerce Businesses 🏬**
+### Importance of Wholesale for WooCommerce for E-Commerce Businesses 🏬
 
 Whether you manage a small, medium-sized, or large e-commerce business, the B2B pricing plugin can optimize wholesale products and pricing.
 
@@ -106,9 +106,9 @@ The other crucial benefit of higher sales and profitability is improved customer
 
 ### Does Wholesale for WooCommerce have a Pro Version? 🤔
 
-In addition to the free version of Wholesale for WooCommerce, users can benefit from the Pro version, Wholesale for WooCommerce Pro. This version lets users utilize numerous helpful features and make their WooCommerce wholesale stores successful in terms of conversion rates, sales, and revenues.   
+In addition to the free version of Wholesale for WooCommerce, users can benefit from the Pro version, [Wholesale for WooCommerce Pro](https://wpexperts.io/products/wholesale-for-woocommerce/). This version lets users utilize numerous helpful features and make their WooCommerce wholesale stores successful in terms of conversion rates, sales, and revenues.   
 
-**What Makes the Wholesale for WooCommerce Pro Different from Other WooCommerce Wholesale Plugins? ⭐**
+### What Makes the Wholesale for WooCommerce Pro Different from Other WooCommerce Wholesale Plugins? ⭐
 
 Wholesale for WooCommerce Pro has impressive features that suit small, medium-sized, and large businesses. These powerful features are divided into sub-categories below:
 
@@ -180,9 +180,9 @@ Wholesale for WooCommerce Pro has impressive features that suit small, medium-si
 * Cart Total Discount can be applied to the Cart total by setting the minimum cart amount and discount value.
 * Admin can manually add wholesale products to a customer’s order.
 
-**Wholesale for WooCommerce Compatibility 🔄**
+### Wholesale for WooCommerce Compatibility 🔄
 
-Wholesale for WooCommerce is compatible with a notable plugin, Currency Switcher for WooCommerce. It is also compatible with other plugins, such as WooCommerce Subscriptions, Quote for WooCommerce, Sales Agent for WooCommerce, and Product Vendors.
+Wholesale for WooCommerce is compatible with a notable plugin, [Currency Switcher for WooCommerce](https://wpexperts.io/products/currency-switcher-for-woocommerce/). It is also compatible with other plugins, such as WooCommerce Subscriptions, Quote for WooCommerce, Sales Agent for WooCommerce, and Product Vendors.
 
 Furthermore, this wholesale plugin supports other impactful plugins, including Advanced Order Notes for WooCommerce, Smart Product Bundles for WooCommerce, B2B Invoice Payment Method for WooCommerce, Delivery * Options for WooCommerce, LOCO Translate, Conditional Fees for WooCommerce, WooCommerce Pre Orders, Bulk Variation Forms, and WPML.
 
@@ -213,9 +213,12 @@ You can upgrade your current free version to the pro version anytime. The wholes
 2. Wholesale For WooCommerce Price Global Tab
 3. Registration Setting
 4. Default Fields Tab
-5. Wholesale Labels Tab
+5. Registration Notification Setting
 6. Free Shipping Feature
-7. Add/Remove Wholesale User Roles
+7. Wholesale Labels Tab
+8. Add/Remove Wholesale User Roles
+9. Hide Shipping
+
 
 Go to Plugins > Add New.
 
@@ -226,6 +229,12 @@ Go to Plugins > Add New.
 If successful, click Activate Plugin to activate it, or return to plugin installer for further actions.
 
 == Changelog ==
+
+= 2.0.2 =
+* Fix - Minor bug fixes
+
+= 2.0.l =
+* Tested up to WordPress 6.8+
 
 = 2.0 =
 * NEW - REST API

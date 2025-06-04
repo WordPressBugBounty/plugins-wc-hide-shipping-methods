@@ -3,7 +3,7 @@
  * Plugin Name: Wholesale For WooCommerce
  * Plugin URI: https://wpexperts.io/
  * Description: Wholesale for WooCommerce Lite gives you an ability to display wholesale price on all products of your WooCommerce store. Add wholesale pricing on your existing products and display how much your customers are savings.<a href="https://woocommerce.com/products/wholesale-for-woocommerce/?aff=2878" target="_blank"> UPGRADE TO WHOLESALE FOR WOOCOMMERCE PRO </a>to get premium features - Assign and manage wholesale user roles, control product and price visibility and more. 
- * Version: 2.0
+ * Version: 2.0.2
  * Author: WPExperts
  * Author URI: https://wpexperts.io/
  * Developer: WPExperts
@@ -11,8 +11,8 @@
  * Text Domain: woocommerce-wholesale-pricing
  * 
  * WC requires at least: 5.0
- * WC tested up to: 9.8.1
- * Tested up to: 6.7
+ * WC tested up to: 9.8
+ * Tested up to: 6.8
  *
  * Copyright: © 2009-2015 WooCommerce.
  * License: GNU General Public License v3.0
@@ -26,10 +26,6 @@ if ( file_exists( WP_PLUGIN_DIR . '/woo-wholesale-pricing/wholesale-for-woocomme
 	deactivate_plugins( '/woo-wholesale-pricing/wholesale-for-woocommerce-free.php' );
 }
 
-if ( file_exists( WP_PLUGIN_DIR . '/wc-hide-shipping-methods/hide-shipping-free-shipping.php' ) ) {
-	deactivate_plugins( '/wc-hide-shipping-methods/hide-shipping-free-shipping.php' );
-}
-
 if (!defined('WWP_PLUGIN_URL')) {
 	define('WWP_PLUGIN_URL', plugin_dir_url(__FILE__));
 }
@@ -41,7 +37,7 @@ if (!defined('WWP_PLUGIN_DIRECTORY_NAME')) {
 }
 
 if (!defined('WWPL_VERSION')) {
-	define('WWPL_VERSION', '2.0');
+	define('WWPL_VERSION', '2.0.2');
 }
 
 
