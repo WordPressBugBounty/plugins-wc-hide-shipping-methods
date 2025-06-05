@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Wholesale For WooCommerce
- * Plugin URI: https://wpexperts.io/
- * Description: Wholesale for WooCommerce Lite gives you an ability to display wholesale price on all products of your WooCommerce store. Add wholesale pricing on your existing products and display how much your customers are savings.<a href="https://woocommerce.com/products/wholesale-for-woocommerce/?aff=2878" target="_blank"> UPGRADE TO WHOLESALE FOR WOOCOMMERCE PRO </a>to get premium features - Assign and manage wholesale user roles, control product and price visibility and more. 
- * Version: 2.0.2
+ * Plugin URI: https://wpexperts.io/docs/wholesale-for-woocommerce-lite/
+ * Description: Wholesale for WooCommerce Lite gives you an ability to display wholesale price on all products of your WooCommerce store. Add wholesale pricing on your existing products and display how much your customers are savings.<a href="https://wpexperts.io/products/wholesale-for-woocommerce-pro/" target="_blank"> UPGRADE TO WHOLESALE FOR WOOCOMMERCE PRO </a>to get premium features - Assign and manage wholesale user roles, control product and price visibility and more. 
+ * Version: 2.0.3
  * Author: WPExperts
  * Author URI: https://wpexperts.io/
  * Developer: WPExperts

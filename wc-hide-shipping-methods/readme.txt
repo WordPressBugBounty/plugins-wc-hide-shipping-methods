@@ -3,7 +3,7 @@ Contributors: wpexpertsio
 Tags: woocommerce wholesale, wholesale plugin, B2B, wholesale pricing, woocommerce wholesale pricing
 Requires at least: 5.6
 Tested up to: 6.8
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 Requires PHP: 7.4
 License: GPLv2
 License URI: GPLv2
@@ -12,13 +12,13 @@ B2B Wholesale for WooCommerce is a free eCommerce B2B plugin that helps online B
 
 == Description ==
 
-🔍 [Live Demo](https://wpedemo.com/wholesale-product-for-woocommerce/) | 📄 [Documentation](https://wpexperts.io/docs/wholesale-for-woocommerce/) |⭐ [Get Pro](https://wpexperts.io/products/wholesale-for-woocommerce/) |
+🔍 [Live Demo](https://wpedemo.com/wholesale-product-for-woocommerce/) | 📄 [Documentation](https://wpexperts.io/docs/wholesale-for-woocommerce-lite/) |⭐ [Get Pro](https://wpexperts.io/products/wholesale-for-woocommerce-pro/) |
 
 Looking for the ultimate solution to manage wholesale pricing on your WooCommerce store? Our B2B wholesale plugin is a powerful all-in-one tool that lets you sell both retail and wholesale products from a single website—no need to build a separate B2B site! Use Wholesale for WooCommerce to efficiently onboard wholesale customers through a dedicated wholesale registration form and assign them a custom "Wholesaler" role with just a few clicks. Add wholesale pricing to simple and variable products, giving you complete control over pricing for each user role.
 
 Boost customer satisfaction by showing them the savings they’re getting. With B2B wholesale for WooCommerce, you can highlight the discount amount directly on your product pages and drive more conversions through visible value.
 
-**Looking for more? You can always upgrade to [Wholesale for WooCommerce Pro](https://wpexperts.io/products/wholesale-for-woocommerce/) and build a custom online B2B store to streamline your wholesale operations.** 
+**Looking for more? You can always upgrade to [Wholesale for WooCommerce Pro](https://wpexperts.io/products/wholesale-for-woocommerce-pro/) and build a custom online B2B store to streamline your wholesale operations.** 
 
 ### How Does Wholesale for WooCommerce Work? 🎥
 If you want to know how this impressive WooCommerce practically works, follow the video tutorial below:
@@ -106,7 +106,7 @@ The other crucial benefit of higher sales and profitability is improved customer
 
 ### Does Wholesale for WooCommerce have a Pro Version? 🤔
 
-In addition to the free version of Wholesale for WooCommerce, users can benefit from the Pro version, [Wholesale for WooCommerce Pro](https://wpexperts.io/products/wholesale-for-woocommerce/). This version lets users utilize numerous helpful features and make their WooCommerce wholesale stores successful in terms of conversion rates, sales, and revenues.   
+In addition to the free version of Wholesale for WooCommerce, users can benefit from the Pro version, [Wholesale for WooCommerce Pro](https://wpexperts.io/products/wholesale-for-woocommerce-pro/). This version lets users utilize numerous helpful features and make their WooCommerce wholesale stores successful in terms of conversion rates, sales, and revenues.   
 
 ### What Makes the Wholesale for WooCommerce Pro Different from Other WooCommerce Wholesale Plugins? ⭐
 
@@ -229,6 +229,9 @@ Go to Plugins > Add New.
 If successful, click Activate Plugin to activate it, or return to plugin installer for further actions.
 
 == Changelog ==
+
+= 2.0.3 =
+* Minor tweaks
 
 = 2.0.2 =
 * Fix - Minor bug fixes
