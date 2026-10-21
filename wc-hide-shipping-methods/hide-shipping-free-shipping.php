@@ -5,13 +5,13 @@
  * Description: Hides other shipping methods when "Free shipping" is available.
  * Author: WPExperts
  * Author URI: https://wpexperts.io
- * Version: 2.0.6
+ * Version: 2.0.7
  * Text Domain: wc-hide-shipping-methods
  * Domain Path: /languages
- * License: GPLv3 or later License
+ * License: GPLv3 or later.
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * WC requires at least: 3.9.4
- * WC tested up to: 9.9
+ * WC tested up to: 11.1.1
  * Requires at least: 6.5
  * Requires PHP: 7.4
  *
@@ -39,12 +39,11 @@ if ( ! function_exists( 'woocommerce_admin_field_multiselect' ) ) {
             <th scope="row" class="titledesc">
                 <label for="<?php echo esc_attr( $value['id'] ); ?>"><?php echo esc_html( $value['title'] ); ?></label>
             </th>
-            <td class="forminp forminp-<?php echo sanitize_title( $value['type'] ); ?>">
+            <td class="forminp forminp-<?php echo esc_attr( sanitize_title( $value['type'] ) ); ?>">
                 <select multiple="multiple" style="<?php echo esc_attr( $value['css'] ); ?>" class="<?php echo esc_attr( $value['class'] ); ?>" id="<?php echo esc_attr( $value['id'] ); ?>" name="<?php echo esc_attr( $value['id'] ); ?>[]">
                     <?php
                     foreach ( $value['options'] as $key => $label ) {
-                        $selected = in_array( $key, (array) $option_value, true ) ? 'selected="selected"' : '';
-                        echo '<option value="' . esc_attr( $key ) . '" ' . $selected . '>' . esc_html( $label ) . '</option>';
+                        echo '<option value="' . esc_attr( $key ) . '"' . selected( in_array( $key, (array) $option_value, true ), true, false ) . '>' . esc_html( $label ) . '</option>';
                     }
                     ?>
                 </select>
@@ -90,6 +89,7 @@ class WC_Hide_Shipping_Methods {
         if ( ! is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
             $class   = 'error';
             $message = sprintf(
+                /* translators: %s: WooCommerce plugin URL on WordPress.org */
                 __(
                     '<strong>WC Hide Shipping Methods is inactive.</strong> The <a href="%s" target="_blank">WooCommerce plugin</a> must be active for this plugin to work.',
                     'wc-hide-shipping-methods'

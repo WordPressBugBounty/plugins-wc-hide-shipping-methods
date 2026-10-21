@@ -2,11 +2,11 @@
 Contributors: saadiqbal, wpexpertsio
 Tags: woocommerce free shipping, hide shipping methods, hide shipping rates, force free shipping, hide other shipping methods
 Requires at least: 6.5.0
-Tested up to: 7.0
-Stable tag: 2.0.6
+Tested up to: 7.1.2
+Stable tag: 2.0.7
 WC requires at least: 3.9.4
-WC tested up to: 10.0
-License: GPLv3 or later License
+WC tested up to: 11.1.2
+License: GPLv3 or later.
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 This plugin automatically hides all other shipping methods when "Free Shipping" is available, while allowing you to retain "Local Pickup" and any additional shipping methods you select from your shipping zones.
@@ -52,6 +52,11 @@ A: You can submit issues or feature requests on the [WPExperts Support Center](h
 2. Checkout showing only "Free Shipping".
 
 == Changelog ==
+
+= 2.0.7 =
+* Tested up to WordPress 7.1.2
+* Tested up to WooCommerce 11.1.2
+
 = 2.0.6 =
 * Tested up to WordPress 7.0
 
